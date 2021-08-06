@@ -1,0 +1,63 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    color: #102056;
+}
+.mm-active .active,
+.mm-active .active i,
+.mm-active .active svg {
+    color: #5156be !important;
+}
+
+.sprite {
+    display: inline-block;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+}
+
+.sprite.autosize {
+    width: 100%;
+}
+
+.sprite:before {
+    content: '';
+    display: block;
+}
+
+
+.sprite.logo {
+    width: 100%;
+    height: auto;
+    background-position: 44.631578947368425% 0%;
+    background-size: 382.73809523809524% auto;
+    line-height:0;
+}
+
+.sprite.logo:before {
+    padding-top: 75%;
+}
+
+#sidebar-menu ul li a {
+    font-size:1rem;
+}
+#sidebar-menu ul li ul.sub-menu li a {
+    font-size:.95rem;
+}
+#sidebar-menu ul li a,
+#sidebar-menu ul li a i {
+    color: #102056;
+}
+
+.btn-info,
+.btn-check:focus+.btn-info,
+.btn-info:focus,
+.btn-info:hover {
+    background-color: #102056;
+    border-color: #102056;
+}
+
+.btn-warning {
+    background-color: #c59b7d;
+    border-color: #c59b7d;
+}
